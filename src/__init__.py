@@ -73,8 +73,7 @@ def register() -> None:
 
 def unregister() -> None:
     all_classes = get_classes()
-    for m in menus[::-1]:
-        bpy.types.TOPBAR_MT_file.remove(menus["explore"])
+    bpy.types.TOPBAR_MT_file.remove(menus["explore"])
     for c in all_classes[::-1]:
         try:
             bpy.utils.unregister_class(c)
