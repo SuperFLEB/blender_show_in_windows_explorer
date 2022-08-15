@@ -8,4 +8,4 @@ Requires Microsoft Windows OS.
 
 ## To use
 
-From the File menu, select "Show in Explorer"
+From the File menu, select "Show in Windows Explorer"
