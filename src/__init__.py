@@ -16,7 +16,7 @@ bl_info = {
     "name": "Show in Windows Explorer",
     "description": "Show the currently-open file in Windows Explorer. Requires Microsoft Windows.",
     "author": "FLEB (a.k.a. SuperFLEB)",
-    "version": (0, 1, 0),
+    "version": (0, 1, 1),
     "blender": (3, 1, 0),
     "location": "View3D > Object",
     "warning": "Requires Microsoft Windows",
