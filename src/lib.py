@@ -15,4 +15,4 @@ def can_find_explorer() -> bool:
 def explore_to_file(file_path: str) -> None:
     if not can_find_explorer():
         raise Exception("Cannot find Windows Explorer")
-    subprocess.Popen((_explorer_path(), f"/select,{file_path}"))
+    subprocess.Popen((_explorer_path(), "/select,", file_path))
